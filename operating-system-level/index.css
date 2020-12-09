@@ -1,0 +1,51 @@
+
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    --text-color: #222;
+    --background-color: #fff;
+}
+
+a {
+    --anchor-color: #0033cc;
+}
+
+body.dark-theme {
+    --text-color: #eee;
+    --background-color: #121212;
+}
+
+body.dark-theme a {
+    --anchor-color: #c4d3ff;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        --text-color: #eee;
+        --background-color: #121212;
+    }
+
+    a {
+        --anchor-color: #c7d5ff;
+    }
+
+    body.light-theme {
+        --text-color: #222;
+        --background-color: #fff;
+    }
+
+    body.light-theme a {
+        --anchor-color: #0033cc;
+    }
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--anchor-color);
+}

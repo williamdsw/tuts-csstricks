@@ -1,0 +1,31 @@
+
+body {
+    --text-color: #222;
+    --background-color: #fff;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+a {
+    --anchor-color: #0033cc;
+}
+
+body.dark-theme {
+    --text-color: #eee;
+    --background-color: #121212;
+}
+
+body.dark-theme a {
+    --anchor-color: #c4d3ff;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--anchor-color);
+}
