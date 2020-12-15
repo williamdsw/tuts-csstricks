@@ -8,4 +8,5 @@ Project based on this [site](https://css-tricks.com/).
 * [Backdrop Filter](/backdrop-filter/) - [article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
 * [Dark Mode](/dark-mode/) - [article](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
 * [Isolation](/isolation/) - [article](https://css-tricks.com/almanac/properties/i/isolation/)
+* [Line Break](/line-break/) - [article](https://css-tricks.com/almanac/properties/l/line-break/)
 * [Smooth Scrolling](/smooth-scrolling/) - [article](https://css-tricks.com/snippets/jquery/smooth-scrolling/)

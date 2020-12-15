@@ -1,0 +1,39 @@
+
+body {
+    padding: 2rem;
+}
+
+p {
+    word-break: normal;
+}
+
+.value {
+    border: 1px solid #333;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    min-height: 160px;
+    padding: 1rem;
+    vertical-align: top;
+    width: 160px;
+}
+
+.auto {
+    line-break: auto;
+}
+
+.normal {
+    line-break: normal;
+}
+
+.loose {
+    line-break: loose;
+}
+
+.strict {
+    line-break: strict;
+}
+
+.anywhere {
+    line-break: anywhere;
+}
