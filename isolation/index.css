@@ -1,0 +1,47 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote {
+    position: absolute;
+    top: 3em;
+    left: 10%;
+    background-color: #555;
+    border: 15px solid #000;
+    color: #fff;
+    font-size: 3em;
+    padding: 25px 10px;
+    text-align: center;
+    width: 70%;
+    mix-blend-mode: overlay;
+}
+
+cite {
+    color: #ccc;
+    display: block;
+    font-size: 50%;
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.module {}
+.module-content {}
+
+.module-controls {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 10px;
+}
