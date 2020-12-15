@@ -1,0 +1,105 @@
+
+html,
+body {
+    height: 100%;
+}
+
+.box {
+    min-width: 30vh;
+    min-height: 15vh;
+    border: 1px dotted black;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.pulse {
+    animation: pulse 5s infinite;
+}
+
+.multiple {
+    border-radius: 100%;
+    animation: 
+        pulse 3s ease infinite alternate,
+        nudge 5s linear infinite alternate;
+}
+
+.stretch {
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.opacity {
+    background-color: gray;
+    -webkit-animation: opacity 5s infinite;
+    -moz-animation: opacity 5s infinite;
+    -o-animation: opacity 5s infinite;
+    animation: opacity 5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        background-color: #001F3F;
+    }
+
+    50% {
+        background-color: #FF4136;
+    }
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(.3);
+        background-color: red;
+        border-radius: 100%;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        transform: scale(1.5);
+        background-color: yellow;
+    }
+}
+
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(150px, 0);
+    }
+
+    80% {
+        transform: translate(-150px, 0);
+    }
+}
+
+@-webkit-keyframes opacity {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes opacity {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes opacity {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes opacity {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
