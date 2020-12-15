@@ -11,4 +11,5 @@ Project based on this [site](https://css-tricks.com/).
 * [Line Break](/line-break/) - [article](https://css-tricks.com/almanac/properties/l/line-break/)
 * [Mask Image](/mask-image/) - [article](https://css-tricks.com/almanac/properties/m/mask-image/)
 * [Scrollbar Color](/scrollbar-color/) - [article](https://css-tricks.com/almanac/properties/s/scrollbar-color/)
+* [Shape Image Threshold](/shape-image-threshold/) - [article](https://css-tricks.com/almanac/properties/s/shape-image-threshold/)
 * [Smooth Scrolling](/smooth-scrolling/) - [article](https://css-tricks.com/snippets/jquery/smooth-scrolling/)

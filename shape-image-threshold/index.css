@@ -1,0 +1,23 @@
+
+.wrapper {
+    padding: 3rem;
+}
+
+.wrapper:first-child {
+    margin-bottom: 2rem;
+}
+
+.shape {
+    background-image: linear-gradient(45deg, #0277db, transparent 50%, transparent);
+    display: flex;
+    float: left;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    shape-outside: linear-gradient(45deg, #0277db, transparent 50%);
+}
+
+h2 {
+    font-size: 20px;
+    transform: rotate(270deg);
+}
