@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.image-with-mask {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+
+    background-image: url('https://imagem.band.com.br/f_476382.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    mask-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/1027px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png');
+    mask-size: 100vmin;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/1027px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png');
+    -webkit-mask-size: 100vmin;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
