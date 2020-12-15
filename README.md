@@ -10,4 +10,5 @@ Project based on this [site](https://css-tricks.com/).
 * [Isolation](/isolation/) - [article](https://css-tricks.com/almanac/properties/i/isolation/)
 * [Line Break](/line-break/) - [article](https://css-tricks.com/almanac/properties/l/line-break/)
 * [Mask Image](/mask-image/) - [article](https://css-tricks.com/almanac/properties/m/mask-image/)
+* [Scrollbar Color](/scrollbar-color/) - [article](https://css-tricks.com/almanac/properties/s/scrollbar-color/)
 * [Smooth Scrolling](/smooth-scrolling/) - [article](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
