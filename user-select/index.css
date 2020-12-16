@@ -1,0 +1,20 @@
+
+div {
+    padding: 20px;
+    margin: 20px;
+    background: #eee;
+}
+
+.no-copy p {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.all-copy p {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}

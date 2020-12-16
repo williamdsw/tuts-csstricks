@@ -18,3 +18,4 @@ Project based on this [site](https://css-tricks.com/).
 * [Transform](/transform/) - [article](https://css-tricks.com/almanac/properties/t/transform/)
 * [Transform Origin](/transform-origin/) - [article](https://css-tricks.com/almanac/properties/t/transform-origin/)
 * [Transition Delay](/transition-delay/) - [article](https://css-tricks.com/almanac/properties/t/transition-delay/)
+* [User Select](/user-select/) - [article](https://css-tricks.com/almanac/properties/u/user-select/)
