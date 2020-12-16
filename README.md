@@ -16,3 +16,4 @@ Project based on this [site](https://css-tricks.com/).
 * [Text Shadow](/text-shadow/) - [article](https://css-tricks.com/almanac/properties/t/text-shadow/)
 * [Text Stroke](/text-stroke/) - [article](https://css-tricks.com/almanac/properties/t/text-stroke/)
 * [Transform](/transform/) - [article](https://css-tricks.com/almanac/properties/t/transform/)
+* [Transform Origin](/transform-origin/) - [article](https://css-tricks.com/almanac/properties/t/transform-origin/)
