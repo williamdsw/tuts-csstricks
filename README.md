@@ -14,3 +14,4 @@ Project based on this [site](https://css-tricks.com/).
 * [Shape Image Threshold](/shape-image-threshold/) - [article](https://css-tricks.com/almanac/properties/s/shape-image-threshold/)
 * [Smooth Scrolling](/smooth-scrolling/) - [article](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 * [Text Shadow](/text-shadow/) - [article](https://css-tricks.com/almanac/properties/t/text-shadow/)
+* [Text Stroke](/text-stroke/) - [article](https://css-tricks.com/almanac/properties/t/text-stroke/)

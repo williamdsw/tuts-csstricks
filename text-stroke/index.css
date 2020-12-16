@@ -1,0 +1,21 @@
+
+body {
+    padding: 0 0 0 3em;
+    background: whitesmoke;
+}
+
+h1 {
+    font-size: 4em;
+    -webkit-text-stroke: 3px darkgrey;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.5s infinite alternate;
+}
+
+@-webkit-keyframes fill {
+    from {
+        -webkit-text-fill-color: steelblue;
+    }
+    to {
+        -webkit-text-fill-color: slategrey;
+    }
+}
