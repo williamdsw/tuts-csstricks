@@ -1,0 +1,49 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+}
+
+.box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    opacity: .7;
+}
+
+.card-box {
+    background: linear-gradient(180deg, #ff8a00, #e52e71);
+    transform: skew(20deg);
+    animation: skew 3s infinite;
+    animation-direction: alternate;
+}
+
+.blue-box {
+    background-color: #0074d9;
+    transform: rotate(30deg);
+    animation: roll 3s infinite;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(20deg, 20deg);
+    }
+    100% {
+        transform: skew(-20deg, -20deg);
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
