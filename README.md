@@ -17,3 +17,4 @@ Project based on this [site](https://css-tricks.com/).
 * [Text Stroke](/text-stroke/) - [article](https://css-tricks.com/almanac/properties/t/text-stroke/)
 * [Transform](/transform/) - [article](https://css-tricks.com/almanac/properties/t/transform/)
 * [Transform Origin](/transform-origin/) - [article](https://css-tricks.com/almanac/properties/t/transform-origin/)
+* [Transition Delay](/transition-delay/) - [article](https://css-tricks.com/almanac/properties/t/transition-delay/)
