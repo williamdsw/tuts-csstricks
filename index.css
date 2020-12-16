@@ -1,0 +1,48 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(240deg, red, orange);
+    max-width: 40%;
+    margin: auto;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(0, 80, 172);
+    text-shadow: 0 1px 10px yellow;
+}
+
+li > a:visited {
+    color: rgb(122, 0, 122);
+}
+
+li > a:hover {
+    color: rgb(0, 102, 218);
+}
+
+li > a:visited:hover {
+    color: rgb(153, 1, 153);
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        max-width: 80%;
+    }
+}
